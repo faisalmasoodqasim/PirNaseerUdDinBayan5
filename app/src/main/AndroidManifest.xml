@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pirnaseerbayan.faisalmasoodqasim.smksystems">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+
+
+        <activity
+            android:name=".flashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1.NoActionBar" >
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"  android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".page1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page11"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page14"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page15"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page16"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page17"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page18"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page19"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page20"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page21"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page22"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page23"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page24"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page25"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page26"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page27"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page28"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page29"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page30"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page31"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page32"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page33"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page34"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page35"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page36"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page37"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page38"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page39"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page40"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page41"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
